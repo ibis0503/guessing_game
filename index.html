@@ -38,53 +38,37 @@
       <li>professional degree in Human Centered Design &amp; Engineering</li>
     <p>2008-2010 : University of Washington.</p>
       <li>B.A in interdisciplinary visual arts</li>
-    <script>
-      /*var userName = prompt('What\'s your name?');
-      alert('Hello ' + userName + ', Thanks for coming to my site!');*/
+      <script>
+      var answerOne = prompt('Kenny\'s currently working at Xbox Team (yes/no)');
 
-      // We want to ask the uer a question
-      // Take their answer as input; store in a var
-      // Validate that their answer matches my answer
-      // Depending on True or False, provide feedback
-
-      /*var answerOne = prompt('What state was I born in?');
-      var myAnswerOne = 'Washington'; // String is called 'Washington' operator varialbe of myAnswerOne //
-
-      if(answerOne === myAnswerOne) {
-        alert('You got it right. I was born in Washington! ');
-      } else {
-        alert('Sorry, I was born in Washington. ');
-      }*/
-      var answerOne = prompt('Kenny\'s currently working at Xbox Team (y/n or yes/no)');
-
-      if (answerOne.toUpperCase() === 'NO' || answerOne.toUpperCase() === 'N' || answerOne.toUpperCase() === 'NOPE' || answerOne.toUpperCase() === 'NAH') {
+      if (answerOne.toLowerCase() === 'no') {
          // This console.log will execute as long as one of all four conditions evaluates to 'True'//
         alert('You got it right! ');
       } else {
         alert('Wrong!!! ');
       }
 
-      var answerTwo = prompt('Kenny grauated from Harvard Law School (y/n or yes/no)');
+      var answerTwo = prompt('Kenny grauated from Harvard Law School (yes/no)');
 
-      if (answerTwo.toUpperCase() === 'NO' || answerTwo.toUpperCase() === 'N' || answerTwo.toUpperCase() === 'NOPE' || answerTwo.toUpperCase() === 'NAH') {
+      if (answerTwo.toLowerCase() === 'no') {
          // This console.log will execute as long as one of all four conditions evaluates to 'True'//
         alert('You got it right! ');
       } else {
         alert('Wrong!!! ');
       }
 
-      var answerThree = prompt('Kenny recently graduated from college (y/n or yes/no)');
+      var answerThree = prompt('Kenny recently graduated from college (yes/no)');
 
-      if (answerThree.toUpperCase() === 'NO' || answerThree.toUpperCase() === 'N' || answerThree.toUpperCase() === 'NOPE' || answerThree.toUpperCase() === 'NAH') {
+      if (answerThree.toLowerCase() === 'no') {
          // This console.log will execute as long as one of all four conditions evaluates to 'True'//
         alert('You got it right! ');
       } else {
         alert('Wrong!!! ');
       }
 
-      var answerFour = prompt('Kenny has bachelor\'s degree in Human Centered Design &amp; Engineering  (y/n or yes/no)');
+      var answerFour = prompt('Kenny has bachelor\'s degree in Human Centered Design & Engineering  (yes/no)');
 
-      if (answerFour.toUpperCase() === 'NO' || answerFour.toUpperCase() === 'N' || answerFour.toUpperCase() === 'NOPE' || answerFour.toUpperCase() === 'NAH') {
+      if (answerFour.toLowerCase() === 'no') {
          // This console.log will execute as long as one of all four conditions evaluates to 'True'//
         alert('You got it right! ');
       } else {
