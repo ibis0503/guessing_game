@@ -1,35 +1,23 @@
-/*
-Selector {
-  property: value;
-  property: value;
-} */
-
-/* By Element name */
-body {
-  color: blue;
-  font-family: helvetica;
-  font-size: 16px;
-  font-style: italic;
-}
-
 h1 {
-
+  margin: 0px;
+  font-size: 34px;
 }
 
-/* By Class name */
-.classOne {
-
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #F16522;
+  margin-top: 0px;
 }
 
-.classTwo {
-
+h3 {
+  font-szie: 16px;
 }
 
-/* By Id */
-#idOne {
-
+h4 {
+  font-size: 14px;
 }
 
-#idTwo {
-
+p {
+  font-size: 14px;
 }
