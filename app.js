@@ -1,43 +1,35 @@
-// var userName = prompt ('Give me the name');
-// console.log ('line 2: username', userName);
+var answerOne = prompt('Kenny\'s currently working at Xbox Team (yes/no)');
 
-var arr = ['Scott', 25, 'banana', true, undefined, 'boom'];
-//
-// for (var i = 0; i < arr.length ; i++) {
-//   console.log (arr[i]); //arr at i or arr sub i
-// }
-//
-// for (var j = arr.length -1; j >= 0; j--) {
-//   //log each element in the arr from the last to [0]
-//   console.log (arr[j]); //arr at i or arr sub i
-// }
-
-// Lets talk about counters
-var counter = 0;
-
-  for (var k = 0; k < arr.length; k++) {
-    counter = counter + 2;
-    // counter = 0 + 2
-    // counter = 2
-    // 2
-  }
-console.log('counter', counter);
-
-  for (var k = 0; k < arr.length; k++) {
-    counter += 2;
-    // counter = counter + 1;
-    // counter += 1;
-    // counter++; .. postfix invremental
-    // counter; // prefix incremental
-  }
-console.log('counter', counter);
-
-// While Loops!!
-while (true) {
-  // do some stuff
+if (answerOne.toLowerCase() === 'no') {
+  // This console.log will execute as long as one of all four conditions evaluates to 'True'//
+  alert('You got it right! ');
+} else {
+  alert('Wrong!!! ');
 }
 
-do {
-  // run at least once!
-  // do some stuff
-} while(true)
+var answerTwo = prompt('Kenny grauated from Harvard Law School (yes/no)');
+
+if (answerTwo.toLowerCase() === 'no') {
+  // This console.log will execute as long as one of all four conditions evaluates to 'True'//
+  alert('You got it right! ');
+} else {
+  alert('Wrong!!! ');
+}
+
+var answerThree = prompt('Kenny recently graduated from college (yes/no)');
+
+if (answerThree.toLowerCase() === 'no') {
+  // This console.log will execute as long as one of all four conditions evaluates to 'True'//
+  alert('You got it right! ');
+} else {
+  alert('Wrong!!! ');
+}
+
+var answerFour = prompt('Kenny has bachelor\'s degree in Human Centered Design & Engineering  (yes/no)');
+
+if (answerFour.toLowerCase() === 'no') {
+  // This console.log will execute as long as one of all four conditions evaluates to 'True'//
+  alert('You got it right! ');
+} else {
+  alert('Wrong!!! ');
+}
