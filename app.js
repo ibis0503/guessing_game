@@ -1,3 +1,6 @@
+// Create function guessingGame //
+function guessingGame() {
+
 var answerOne = prompt('Kenny\'s currently working at Xbox Team (yes/no)');
 
 if (answerOne.toLowerCase() === 'no') {
@@ -33,3 +36,6 @@ if (answerFour.toLowerCase() === 'no') {
 } else {
   alert('Wrong!!! ');
 }
+
+// Close guessingGame function //
+};
